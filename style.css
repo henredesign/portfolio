@@ -1,0 +1,579 @@
+/* CSS files add styling rules to your content */
+
+@import url('https://fonts.googleapis.com/css?family=Staatliches');
+
+@import url('https://fonts.googleapis.com/css?family=VT323');
+
+body {
+  font-family: 'VT323', "Helvetica Neue", helvetica, arial, sans-serif;
+  margin: 1em;
+}
+#logo{
+width: 80px;
+  float:left;
+  margin-left: 60px;
+  top: 10px;
+  position: relative;
+  float: left;
+  user-select: none;
+  z-index: 1;
+}
+
+#ha{
+  transform: rotate(90deg);
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+#ig{
+width: 30px;
+margin-top: 30px;
+margin-right: 30px;
+position: relative;
+float: right;
+  
+}
+
+#hok {
+  margin: 1em;
+  background: #f4df1c;
+}
+
+/* #nav{
+  display:grid;
+  grid-template-columns: auto auto auto;
+  grid-column-gap: 15vw; 
+font-size: 25pt;
+position: relative;
+  float: left;
+  margin: 30px 0px;
+  left: -250px;
+  visibility: hidden;
+  opacity: 0;
+  transition: left .75s ease, opacity 3s ease;
+  user-select: none;
+  z-index: 0;
+  letter-spacing: 1pt;
+  
+} */
+
+/* #nav-{
+font-size: 25pt;
+position: relative;
+  float: left;
+  margin: 30px -15px;
+  user-select: none;
+  z-index: 0;
+  letter-spacing: 1pt;
+
+
+} */
+/* 
+.navcontent{
+margin: 0 110px;
+} */
+
+h1 {
+  font-size: 40pt;
+  margin-left: 10px;
+  margin-top: 30px;
+  position: relative;
+  float: left;
+  user-select: none;
+/*   animation: bounce 1.5s infinite; */
+  z-index: 1;
+  
+}
+
+
+h2{ 
+  font-size: 20pt;
+
+  margin-top:0;
+  font-family: 'VT323';
+  letter-spacing: 3pt;
+}
+
+#container{
+position: relative;
+  margin: 0px 65px;
+float:left;
+  display: grid;
+grid-template-columns: auto auto;
+  grid-gap: 55px; 
+    
+}
+
+.desc{
+font-size: 14pt;
+letter-spacing: 1pt;
+max-width: 600px;
+  min-width: 400px;
+}
+
+@keyframes bounce{
+  0%{transform: scale(1,1);}
+  50%{transform: scale(1.03,1.03);}
+  100%{transform: scale(1,1);}
+}
+
+#grid{
+display: grid;
+  margin-top: 50px;
+  padding-left: 70px;
+grid-template-columns: auto auto auto auto;
+grid-row-gap: 55px; 
+  min-width: 1050px;
+  
+  
+}
+
+#imagegrid{
+display: grid;
+  position: absolute;
+  margin-top: 700px;
+  padding-left: 70px;
+grid-template-columns: auto auto auto auto;
+grid-row-gap: 55px; 
+  min-width: 1050px;
+  
+  
+}
+
+.thumbnail{
+width: 200px;
+  height: 200px;
+}
+
+.shift1{
+   background: white;
+  border-color: black;
+  border-style: solid;
+  border-width: 1.5px;
+  width: 200px;
+  height: 200px;
+  margin: auto;
+  top: 25px;
+  transform: rotate(10deg);
+  transition: transform .2s ease;
+  position: relative;
+  
+}
+
+.shift2{
+  background: white;
+border-color: black;
+  border-style: solid;
+  border-width: 1.5px;
+  width: 200px;
+  height: 200px;
+  margin: auto;
+  top: -178px;
+  transform: rotate(5deg);
+  transition: transform .3s ease;
+  position: relative;
+  
+}
+
+.img{
+  border-color: black;
+  border-style: solid;
+  border-width: 1.5px;
+  background: black;
+  width: 200px;
+  height: 200px;
+  margin: auto;
+  top: -382px;
+  position: relative;
+  overflow: hidden;
+  border-bottom: 2px solid black;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+   transition: transform .5s ease;
+  
+}
+
+
+
+.img:hover{
+transform: scale(1.03,1.03);
+  transition: transform .5s ease;
+}
+
+.main{
+width: 400px;
+  height: 600px;
+  margin-left: 70px;
+}
+
+.i{
+  width: 100%;
+  background: white;
+  transition: opacity .5s ease;
+
+}
+
+.i:hover{
+  transition: opacity .5s ease;
+}
+
+#i2{
+  position: absolute;
+top:-35px;
+}
+
+.text{
+position: absolute;
+  color: white;
+/*   text-shadow: 0px 0px 8px #282828; */
+  text-shadow: 2px 0px 0px rgba(255, 0, 0, 0.7), -1px 0px 0px rgba(0, 0, 255, 0.7), 3px 0px 0px rgba(0, 255, 0, 0.4);
+  font-family: 'VT323', "Helvetica Neue", helvetica, arial, sans-serif;
+  font-size: 21pt;
+/*   font-weight: bold; */
+  -webkit-text-stroke: 0.2px black;
+  letter-spacing: 1pt;
+  margin: 63px 50px;
+  max-width: 70%;
+  text-align: center;
+  user-select: none;
+  z-index: 1;
+}
+
+#t2{
+  margin: 63px 25px;
+}
+
+#t3{
+  margin: 63px 30px;
+}
+
+#t4{
+  margin: 75px 50px;
+}
+
+#t5{
+  margin: 85px 15px;
+}
+
+#t6{
+  margin: 75px 30px;
+}
+
+#t7{
+  margin: 75px 30px;
+}
+
+#i4{
+   width: 100%;
+  top: -50px;
+  position: relative;
+}
+
+.pf{
+  width: 100%;
+
+}
+
+.of{
+  width: 45%;
+  margin: 20px;
+
+}
+
+#portrait{
+height: 500px;
+  position: relative;
+}
+
+#qm{
+width: 500px;
+  position: relative;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 768px){
+  
+  body {
+  font-family: 'VT323', "Helvetica Neue", helvetica, arial, sans-serif;
+margin: auto;
+    overflow-x: hidden;
+    position: absolute;
+    width:100%;
+    
+}
+  
+
+  
+  .of{
+  width: 100%;
+  margin-top: 20px;
+
+}
+#logo{
+width: 100px;
+  left: 30%;
+  margin-left: auto;
+  top: 10px;
+  position: absolute;
+  float: left;
+  user-select: none;
+  z-index: 1;
+  text-align: center;
+  display: none;
+}
+
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+#ig{
+width: 30px;
+margin-top: 10px;
+margin-right: auto;
+position: absolute;
+float: left;
+  left: 90%;
+  
+}
+
+#hok {
+  margin: 1em;
+  background: #f4df1c;
+}
+
+
+/* 
+.navcontent{
+margin: 0 110px;
+} */
+
+h1 {
+  font-size: 30pt;
+  margin: 100px 0;
+  position: relative;
+  float: middle;
+  user-select: none;
+/*   animation: bounce 1.5s infinite; */
+  z-index: 1;
+  width: 100%;
+  text-align: center;
+  
+}
+
+
+h2{ 
+  font-size: 20pt;
+
+  margin-top:0;
+  font-family: 'VT323';
+  letter-spacing: 3pt;
+}
+
+#container{
+position: relative;
+  margin: 0px 10px;
+  width: auto;
+float:left;
+  display: grid;
+grid-template-columns: auto;
+  grid-gap: 55px; 
+    
+}
+
+.desc{
+font-size: 14pt;
+letter-spacing: 1pt;
+  width: 100%;
+  max-width: auto;
+  min-width: auto;
+}
+  
+/*   .divmob{
+width: 100%;
+} */
+
+@keyframes bounce{
+  0%{transform: scale(1,1);}
+  50%{transform: scale(1.03,1.03);}
+  100%{transform: scale(1,1);}
+}
+
+#grid{
+display: grid;
+  margin-top: 50px;
+  padding-left: 0;
+grid-template-columns: auto;
+grid-row-gap: 175px; 
+  min-width: 1vw;
+  
+  
+}
+
+/* #imagegrid{
+display: grid;
+  position: absolute;
+  margin-top: 700px;
+  padding-left: 70px;
+grid-template-columns: auto auto auto auto;
+grid-row-gap: 55px; 
+  min-width: 1050px;
+  
+  
+} */
+
+.thumbnail{
+width: auto;
+  height: 100px;
+}
+
+.shift1{
+   background: white;
+  border-color: black;
+  border-style: solid;
+  border-width: 1.5px;
+  width: 200px;
+  height: 200px;
+  margin: auto;
+  top: 25px;
+  transform: rotate(10deg);
+  transition: transform .2s ease;
+  position: relative;
+  
+}
+
+.shift2{
+  background: white;
+border-color: black;
+  border-style: solid;
+  border-width: 1.5px;
+  width: 200px;
+  height: 200px;
+  margin: auto;
+  top: -178px;
+  transform: rotate(5deg);
+  transition: transform .3s ease;
+  position: relative;
+  
+}
+
+.img{
+  border-color: black;
+  border-style: solid;
+  border-width: 1.5px;
+  background: black;
+  width: 200px;
+  height: 200px;
+  margin: auto;
+  top: -382px;
+  position: relative;
+  overflow: hidden;
+  border-bottom: 2px solid black;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+   transition: transform .5s ease;
+  
+}
+
+.img:hover{
+transform: scale(1.03,1.03);
+  transition: transform .5s ease;
+}
+
+.main{
+width: 400px;
+  height: 600px;
+  margin-left: 70px;
+}
+
+.i{
+  width: 100%;
+  background: white;
+  transition: opacity .5s ease;
+
+}
+
+.i:hover{
+  transition: opacity .5s ease;
+}
+
+#i2{
+  position: absolute;
+top:-35px;
+}
+
+.text{
+position: absolute;
+  color: white;
+/*   text-shadow: 0px 0px 8px #282828; */
+  text-shadow: 2px 0px 0px rgba(255, 0, 0, 0.7), -1px 0px 0px rgba(0, 0, 255, 0.7), 3px 0px 0px rgba(0, 255, 0, 0.4);
+  font-family: 'VT323', "Helvetica Neue", helvetica, arial, sans-serif;
+  font-size: 21pt;
+/*   font-weight: bold; */
+  -webkit-text-stroke: 0.2px black;
+  letter-spacing: 1pt;
+  margin: 63px 50px;
+  max-width: 70%;
+  text-align: center;
+  user-select: none;
+  z-index: 1;
+}
+
+#t2{
+  margin: 63px 25px;
+}
+
+#t3{
+  margin: 63px 30px;
+}
+
+#t4{
+  margin: 75px 50px;
+}
+
+#t5{
+  margin: 85px 15px;
+}
+
+#t6{
+  margin: 75px 30px;
+}
+
+#t7{
+  margin: 75px 30px;
+}
+
+#i4{
+   width: 100%;
+  top: -50px;
+  position: relative;
+}
+
+.pf{
+  width: 100%;
+
+}
+
+#portrait{
+  width: 100%;
+height: auto;
+  position: relative;
+}
+
+#qm{
+width: 100%;
+  position: relative;
+}
+  
+  
+  
+}
