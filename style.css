@@ -574,6 +574,9 @@ width: 100%;
   position: relative;
 }
   
+  #ha{
+  transform: rotate(90deg);
+}
   
   
 }
