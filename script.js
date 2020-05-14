@@ -101,40 +101,20 @@ nav.style.visibility = "hidden"
 
 th1.addEventListener('mouseover', function(event){
 
-  shift1.style.transform = "rotate(0deg)";
-  shift2.style.transform = "rotate(0deg)";
+  s1a.style.transform = "rotate(0deg)";
+  s1b.style.transform = "rotate(0deg)";
   img1.src = "https://cdn.glitch.com/8564ad58-5b13-41ff-b387-57c90cb9df12%2Fstatic_by_bureiku_fox.gif?1550266240493"
   t1.innerHTML = "HOUSE OF KNUCKLES IDENTITY"
 })
 
 th1.addEventListener('mouseleave', function(event){
 
-  shift1.style.transform = "rotate(10deg)";
-  shift2.style.transform = "rotate(5deg)";
+  s1a.style.transform = "rotate(10deg)";
+  s1b.style.transform = "rotate(5deg)";
   img1.src = "https://cdn.glitch.com/8564ad58-5b13-41ff-b387-57c90cb9df12%2Fhcd.jpg?1550541935556"
   t1.innerHTML = ""
 })
 
-th2.addEventListener('mouseover', function(event){
-
-  s1a.style.transform = "rotate(0deg)";
-  s1b.style.transform = "rotate(0deg)";
-  img2.src = "https://cdn.glitch.com/8564ad58-5b13-41ff-b387-57c90cb9df12%2Fstatic_by_bureiku_fox.gif?1550266240493"
-  img2.style.top = "0"
-  t2.innerHTML = "THE UNDERGROUND MAINSTREAM"
-
-
-})
-
-th2.addEventListener('mouseleave', function(event){
-
-  s1a.style.transform = "rotate(10deg)";
-   s1b.style.transform = "rotate(5deg)";
-  img2.src = "https://cdn.glitch.com/8564ad58-5b13-41ff-b387-57c90cb9df12%2FScreen%20Shot%202020-02-21%20at%208.36.33%20AM.png?v=1582303023384"
-  img2.style.top = "-35px"
-  t2.innerHTML = ""
-
-})
 
 th3.addEventListener('mouseover', function(event){
 
