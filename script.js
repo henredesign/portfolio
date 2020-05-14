@@ -51,6 +51,12 @@ let t8 = document.querySelector('#t8')
 let th8 = document.querySelector('#th8')
 let img8 = document.querySelector('#i8')
 
+let s9a = document.querySelector('#s9a')
+let s9b = document.querySelector('#s9b')
+let t9 = document.querySelector('#t9')
+let th9 = document.querySelector('#th9')
+let img9 = document.querySelector('#i9')
+
 let nav = document.querySelector('#nav')
 let h1 = document.querySelector('#logo')
 let hvar = 0
@@ -199,7 +205,7 @@ th6.addEventListener('mouseover', function(event){
   s5b.style.transform = "rotate(0deg)";
   img6.src = "https://cdn.glitch.com/8564ad58-5b13-41ff-b387-57c90cb9df12%2Fstatic_by_bureiku_fox.gif?1550266240493"
   img6.style.top = "0"
-  t6.innerHTML = "*UNDER CONSTRUCTION"
+  t6.innerHTML = "EXHIBITION DESIGN"
 
 
 })
@@ -252,5 +258,26 @@ th8.addEventListener('mouseleave', function(event){
   s7b.style.transform = "rotate(5deg)";
   img8.src = "https://cdn.glitch.com/8564ad58-5b13-41ff-b387-57c90cb9df12%2Fstatic_by_bureiku_fox.gif?1550266240493"
   img8.style.top = "-20px"
+
+})
+
+th9.addEventListener('mouseover', function(event){
+
+  s9a.style.transform = "rotate(0deg)";
+  s9b.style.transform = "rotate(0deg)";
+  img9.src = "https://cdn.glitch.com/8564ad58-5b13-41ff-b387-57c90cb9df12%2Fstatic_by_bureiku_fox.gif?1550266240493"
+  img9.style.top = "0"
+t9.innerHTML = "IDENTITY DISRUPTION"
+
+
+})
+
+th9.addEventListener('mouseleave', function(event){
+
+  s9a.style.transform = "rotate(10deg)";
+  s9b.style.transform = "rotate(5deg)";
+  img9.src = "https://cdn.glitch.com/8564ad58-5b13-41ff-b387-57c90cb9df12%2FIDENTITYDISRUPTION.png?v=1589413630242"
+  img9.style.top = "-20px"
+  t9.innerHTML = ""
 
 })
