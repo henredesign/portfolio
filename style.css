@@ -7,9 +7,11 @@
 body {
   font-family: 'VT323', "Helvetica Neue", helvetica, arial, sans-serif;
   margin: 1em;
+  background-color: #161616;
+  color: white;
 }
 #logo{
-width: 80px;
+width: 300px;
   float:left;
   margin-left: 60px;
   top: 10px;
@@ -35,7 +37,43 @@ margin-top: 30px;
 margin-right: 30px;
 position: relative;
 float: right;
+  filter: invert(100%);
   
+}
+
+#hireme{
+width: 60px;
+margin-top: 30px;
+margin-right: 30px;
+position: relative;
+float: right;
+  TEXT-ALIGN: CENTER;
+    animation: rainbow_animation 1.5s ease infinite;
+  
+  
+}
+
+@keyframes rainbow_animation {
+    0%, 100% {
+        color:red;
+    }
+
+    20% {
+        color:yellow;
+    }
+  
+  40% {
+        color: lightgreen;
+    }
+
+    60% {
+        color:cyan;
+    }
+  
+  80% {
+        color: magenta;
+    }
+
 }
 
 #hok {
@@ -79,7 +117,6 @@ margin: 0 110px;
 
 h1 {
   font-size: 40pt;
-  margin-left: 10px;
   margin-top: 30px;
   position: relative;
   float: left;
@@ -134,7 +171,8 @@ max-width: 600px;
 #grid{
 display: grid;
   margin-top: 50px;
-  padding-left: 70px;
+/*   padding-left: 70px; */
+  margin-left: 5%;
 grid-template-columns: auto auto auto auto;
 grid-row-gap: 55px; 
   min-width: 1050px;
@@ -142,9 +180,14 @@ grid-row-gap: 55px;
   
 }
 
+#center{
+  width:100%;
+  margin-top:10%;
+}
+
 #imagegrid{
 display: grid;
-  position: absolute;
+/*   position: absolute; */
   margin-top: 700px;
   padding-left: 70px;
 grid-template-columns: auto auto auto auto;
@@ -160,8 +203,8 @@ width: 200px;
 }
 
 .shift1{
-   background: white;
-  border-color: black;
+   background: black;
+  border-color: white;
   border-style: solid;
   border-width: 1.5px;
   width: 200px;
@@ -175,8 +218,8 @@ width: 200px;
 }
 
 .shift2{
-  background: white;
-border-color: black;
+  background: black;
+border-color: white;
   border-style: solid;
   border-width: 1.5px;
   width: 200px;
@@ -190,19 +233,19 @@ border-color: black;
 }
 
 .img{
-  border-color: black;
+  border-color: white;
   border-style: solid;
   border-width: 1.5px;
-  background: black;
+  background: white;
   width: 200px;
   height: 200px;
   margin: auto;
   top: -382px;
   position: relative;
   overflow: hidden;
-  border-bottom: 2px solid black;
-  border-left: 2px solid black;
-  border-right: 2px solid black;
+  border-bottom: 2px solid white;
+  border-left: 2px solid white;
+  border-right: 2px solid white;
    transition: transform .5s ease;
   
 }
@@ -338,22 +381,11 @@ margin: auto;
   margin-top: 20px;
 
 }
-#logo{
-width: 100px;
-  left: 30%;
-  margin-left: auto;
-  top: 10px;
-  position: absolute;
-  float: left;
-  user-select: none;
-  z-index: 1;
-  text-align: center;
-  display: none;
-}
+
 
 
 a {
-  color: black;
+  color: white;
   text-decoration: none;
 }
 
@@ -364,6 +396,16 @@ margin-right: auto;
 position: absolute;
 float: left;
   left: 90%;
+  filter: invert(100%);
+  
+}
+  
+  #hireme{
+width: 60px;
+margin-top: 10px;
+margin-left: 5%;
+    float: left;
+  
   
 }
 
@@ -377,7 +419,20 @@ float: left;
 .navcontent{
 margin: 0 110px;
 } */
-
+  
+#logo{
+width: 100%;
+  left: 3.5%;
+  font-size: 30pt;
+  margin: 100px 0;
+  position: relative;
+  float: middle;
+  user-select: none;
+  animation: bounce 1.5s infinite ease;
+  z-index: 1;
+  text-align: center;
+}
+  
 h1 {
   font-size: 30pt;
   margin: 100px 0;
@@ -394,7 +449,7 @@ h1 {
 
 h2{ 
   font-size: 20pt;
-
+color: white;
   margin-top:0;
   font-family: 'VT323';
   letter-spacing: 3pt;
@@ -469,8 +524,8 @@ width: auto;
 }
 
 .shift1{
-   background: white;
-  border-color: black;
+   background: black;
+  border-color: white;
   border-style: solid;
   border-width: 1.5px;
   width: 200px;
@@ -484,8 +539,8 @@ width: auto;
 }
 
 .shift2{
-  background: white;
-border-color: black;
+  background: black;
+border-color: white;
   border-style: solid;
   border-width: 1.5px;
   width: 200px;
@@ -499,7 +554,7 @@ border-color: black;
 }
 
 .img{
-  border-color: black;
+  border-color: white;
   border-style: solid;
   border-width: 1.5px;
   background: black;
@@ -509,9 +564,9 @@ border-color: black;
   top: -382px;
   position: relative;
   overflow: hidden;
-  border-bottom: 2px solid black;
-  border-left: 2px solid black;
-  border-right: 2px solid black;
+  border-bottom: 2px solid white;
+  border-left: 2px solid white;
+  border-right: 2px solid white;
    transition: transform .5s ease;
   
 }
