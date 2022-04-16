@@ -57,6 +57,18 @@ let t9 = document.querySelector('#t9')
 let th9 = document.querySelector('#th9')
 let img9 = document.querySelector('#i9')
 
+let s10a = document.querySelector('#s10a')
+let s10b = document.querySelector('#s10b')
+let t10 = document.querySelector('#t10')
+let th10 = document.querySelector('#th10')
+let img10 = document.querySelector('#i10')
+
+let s11a = document.querySelector('#s11a')
+let s11b = document.querySelector('#s11b')
+let t11 = document.querySelector('#t11')
+let th11 = document.querySelector('#th11')
+let img11 = document.querySelector('#i11')
+
 let nav = document.querySelector('#nav')
 let h1 = document.querySelector('#logo')
 let hvar = 0
@@ -259,5 +271,47 @@ th9.addEventListener('mouseleave', function(event){
   img9.src = "https://cdn.glitch.com/8564ad58-5b13-41ff-b387-57c90cb9df12%2FIDENTITYDISRUPTION.png?v=1589413630242"
   img9.style.top = "-20px"
   t9.innerHTML = ""
+
+})
+
+th10.addEventListener('mouseover', function(event){
+
+  s10a.style.transform = "rotate(0deg)";
+  s10b.style.transform = "rotate(0deg)";
+  img10.src = "https://cdn.glitch.com/8564ad58-5b13-41ff-b387-57c90cb9df12%2Fstatic_by_bureiku_fox.gif?1550266240493"
+  img10.style.top = "0"
+t10.innerHTML = "CARAVAN FOR THE CHILDREN"
+
+
+})
+
+th10.addEventListener('mouseleave', function(event){
+
+  s10a.style.transform = "rotate(10deg)";
+  s10b.style.transform = "rotate(5deg)";
+  img10.src = "https://cdn.glitch.global/8564ad58-5b13-41ff-b387-57c90cb9df12/HOKAO-Mw.png?v=1650070151396"
+  img10.style.top = "-20px"
+  t10.innerHTML = ""
+
+})
+
+th11.addEventListener('mouseover', function(event){
+
+  s11a.style.transform = "rotate(0deg)";
+  s11b.style.transform = "rotate(0deg)";
+  img11.src = "https://cdn.glitch.com/8564ad58-5b13-41ff-b387-57c90cb9df12%2Fstatic_by_bureiku_fox.gif?1550266240493"
+  img11.style.top = "0"
+t11.innerHTML = "CLIENT PROJECTS"
+
+
+})
+
+th11.addEventListener('mouseleave', function(event){
+
+  s11a.style.transform = "rotate(10deg)";
+  s11b.style.transform = "rotate(5deg)";
+  img11.src = "https://cdn.glitch.me/8564ad58-5b13-41ff-b387-57c90cb9df12/full%20spread%20goop.png?v=1650077888345"
+  img11.style.top = "-20px"
+  t11.innerHTML = ""
 
 })
