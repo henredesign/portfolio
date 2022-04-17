@@ -27,7 +27,7 @@ width: 300px;
 }
 
 a {
-  color: black;
+  color: #2AFF00;
   text-decoration: none;
 }
 
@@ -137,22 +137,23 @@ h2{
 
 #container{
 position: relative;
-  margin: 0px 65px;
-float:left;
+  margin: 100px 12.5%;
+/* float:left; */
   display: grid;
 grid-template-columns: auto auto;
   grid-gap: 55px; 
+  width: 75%;
     
 }
 
 .container{
 position: relative;
-  margin: 0px 65px;
-float:left;
+  margin: 100px 12.5%;
+/* float:left; */
   display: grid;
 grid-template-columns: auto auto;
   grid-gap: 55px; 
-    
+  width: 75%;
 }
 
 .desc{
@@ -161,6 +162,8 @@ letter-spacing: 1pt;
 max-width: 600px;
   min-width: 400px;
 }
+
+
 
 @keyframes bounce{
   0%{transform: scale(1,1);}
@@ -332,8 +335,8 @@ position: absolute;
 }
 
 .pf{
-  width: 100%;
-
+  width: 75%;
+  margin-left: 12.5%;
 }
 
 .of{
@@ -342,14 +345,22 @@ position: absolute;
 
 }
 
+.tf{
+  width: 30%;
+  margin: 10px;
+
+}
+
 #portrait{
 height: 500px;
-  position: relative;
+/*   position: relative; */
+  float:right;
 }
 
 .portrait{
 height: 500px;
-  position: relative;
+/*   position: relative; */
+  float:right;
 }
 
 #qm{
@@ -357,6 +368,9 @@ width: 500px;
   position: relative;
 }
 
+#startag{
+  width: 500px; margin-top:50px;
+}
 
 
 
@@ -648,6 +662,7 @@ position: absolute;
 
 .pf{
   width: 100%;
+  margin-left:0;
 
 }
 
@@ -674,4 +689,16 @@ width: 100%;
 width: 98%;
 }
   
+  #startag{
+  width: 100%;
+height: auto;
+  position: relative;
 }
+  
+  .tf{
+  width: 100%;
+
+}
+  
+}
+
