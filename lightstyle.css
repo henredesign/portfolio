@@ -22,7 +22,7 @@ width: 300px;
 }
 
 #ha{
-  transform: rotate(90deg);
+/*   transform: rotate(90deg); */
 }
 
 a {
@@ -108,12 +108,12 @@ h2{
 
 #container{
 position: relative;
-  margin: 0px 65px;
-float:left;
+  margin: 100px 12.5%;
+/* float:left; */
   display: grid;
 grid-template-columns: auto auto;
   grid-gap: 55px; 
-    
+  width: 75%;
 }
 
 .desc{
@@ -592,9 +592,8 @@ width: 100%;
   position: relative;
 }
   
-  #ha{
-  transform: rotate(90deg);
-}
-  
+  #of{
+    margin: 0;
+  }
   
 }

@@ -69,6 +69,12 @@ let t11 = document.querySelector('#t11')
 let th11 = document.querySelector('#th11')
 let img11 = document.querySelector('#i11')
 
+let s12a = document.querySelector('#s12a')
+let s12b = document.querySelector('#s12b')
+let t12 = document.querySelector('#t12')
+let th12 = document.querySelector('#th12')
+let img12 = document.querySelector('#i12')
+
 let nav = document.querySelector('#nav')
 let h1 = document.querySelector('#logo')
 let hvar = 0
@@ -310,8 +316,29 @@ th11.addEventListener('mouseleave', function(event){
 
   s11a.style.transform = "rotate(10deg)";
   s11b.style.transform = "rotate(5deg)";
-  img11.src = "https://cdn.glitch.me/8564ad58-5b13-41ff-b387-57c90cb9df12/full%20spread%20goop.png?v=1650077888345"
+  img11.src = "https://cdn.glitch.global/8564ad58-5b13-41ff-b387-57c90cb9df12/blank.png?v=1650147549500"
   img11.style.top = "-20px"
   t11.innerHTML = ""
+
+})
+
+th12.addEventListener('mouseover', function(event){
+
+  s12a.style.transform = "rotate(0deg)";
+  s12b.style.transform = "rotate(0deg)";
+  img12.src = "https://cdn.glitch.com/8564ad58-5b13-41ff-b387-57c90cb9df12%2Fstatic_by_bureiku_fox.gif?1550266240493"
+  img12.style.top = "0"
+t12.innerHTML = "PEDAGOGY OF HOPE"
+
+
+})
+
+th12.addEventListener('mouseleave', function(event){
+
+  s12a.style.transform = "rotate(10deg)";
+  s12b.style.transform = "rotate(5deg)";
+  img12.src = "https://cdn.glitch.global/8564ad58-5b13-41ff-b387-57c90cb9df12/Pedagogy-7.png?v=1650155049615"
+  img12.style.top = "-20px"
+  t12.innerHTML = ""
 
 })
