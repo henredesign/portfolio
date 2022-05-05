@@ -75,6 +75,12 @@ let t12 = document.querySelector('#t12')
 let th12 = document.querySelector('#th12')
 let img12 = document.querySelector('#i12')
 
+let s13a = document.querySelector('#s13a')
+let s13b = document.querySelector('#s13b')
+let t13 = document.querySelector('#t13')
+let th13 = document.querySelector('#th13')
+let img13 = document.querySelector('#i13')
+
 let nav = document.querySelector('#nav')
 let h1 = document.querySelector('#logo')
 let hvar = 0
@@ -340,5 +346,26 @@ th12.addEventListener('mouseleave', function(event){
   img12.src = "https://cdn.glitch.global/8564ad58-5b13-41ff-b387-57c90cb9df12/Pedagogy-7.png?v=1650155049615"
   img12.style.top = "-20px"
   t12.innerHTML = ""
+
+})
+
+th13.addEventListener('mouseover', function(event){
+
+  s13a.style.transform = "rotate(0deg)";
+  s13b.style.transform = "rotate(0deg)";
+  img13.src = "https://cdn.glitch.com/8564ad58-5b13-41ff-b387-57c90cb9df12%2Fstatic_by_bureiku_fox.gif?1550266240493"
+  img13.style.top = "0"
+t13.innerHTML = "LUNADA: LITERARY LOUNGE"
+
+
+})
+
+th13.addEventListener('mouseleave', function(event){
+
+  s13a.style.transform = "rotate(10deg)";
+  s13b.style.transform = "rotate(5deg)";
+  img13.src = "https://cdn.glitch.global/8564ad58-5b13-41ff-b387-57c90cb9df12/LunadaYBCA_Instagram%20copy.png?v=1651779052011"
+  img13.style.top = "-20px"
+  t13.innerHTML = ""
 
 })

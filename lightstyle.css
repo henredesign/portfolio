@@ -41,6 +41,12 @@ float: right;
   
 }
 
+.bigletter{
+  width: 100%;
+  font-size: 90pt;
+  text-align:center;
+}
+
 #hok {
   margin: 1em;
   background: #f4df1c;
