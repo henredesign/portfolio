@@ -298,6 +298,12 @@ position: absolute;
 
 }
 
+.sf{
+  width: 50%;
+  margin: 0 25%;
+
+}
+
 .of{
   width: 45%;
   margin: 20px;
@@ -335,7 +341,8 @@ margin: auto;
   
   .of{
   width: 100%;
-  margin-top: 20px;
+  padding-top: 40px;
+    margin: 0;
 
 }
 
@@ -584,7 +591,11 @@ position: absolute;
 
 .pf{
   width: 100%;
-
+ padding-top: 40px;
+}
+  
+  .sf{
+ padding-top: 40px;
 }
 
 #portrait{
