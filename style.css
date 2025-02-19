@@ -348,6 +348,8 @@ position: absolute;
   margin: 63px 25px;
 }
 
+
+
 #t3{
   margin: 63px 30px;
 }
@@ -373,6 +375,10 @@ position: absolute;
 }
 #t11{
   margin: 45px 30px;
+}
+
+#t12{
+  margin: 70px 50px;
 }
 
 #t14{
@@ -707,6 +713,7 @@ width: 100%;
 display: grid;
   margin-top: 50px;
   margin-bottom: 75px;
+  padding-bottom:100px;
   padding-left: 0;
 grid-template-columns: auto;
 grid-row-gap: 175px; 
