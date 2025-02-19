@@ -171,7 +171,7 @@ th3.addEventListener('mouseleave', function(event){
 
   s2a.style.transform = "rotate(10deg)";
    s2b.style.transform = "rotate(5deg)";
-  img3.src = "https://cdn.glitch.global/8564ad58-5b13-41ff-b387-57c90cb9df12/ProfilePic_Red.png?v=1739952246287"
+  img3.src = "https://cdn.glitch.global/8564ad58-5b13-41ff-b387-57c90cb9df12/Galeria-Thumbnail.png?v=1739995185613"
   img3.style.top = "-28px"
   t3.innerHTML = ""
 
@@ -255,7 +255,7 @@ th7.addEventListener('mouseleave', function(event){
 
   s6a.style.transform = "rotate(10deg)";
   s6b.style.transform = "rotate(5deg)";
-  img7.src = "https://cdn.glitch.com/8564ad58-5b13-41ff-b387-57c90cb9df12%2Fbte.png?v=1580784335583"
+  img7.src = "https://cdn.glitch.global/8564ad58-5b13-41ff-b387-57c90cb9df12/BTE-Thumbnail.png?v=1739995186163"
   img7.style.top = "-20px"
   t7.innerHTML = ""
 
@@ -296,7 +296,7 @@ th9.addEventListener('mouseleave', function(event){
 
   s9a.style.transform = "rotate(10deg)";
   s9b.style.transform = "rotate(5deg)";
-  img9.src = "https://cdn.glitch.global/8564ad58-5b13-41ff-b387-57c90cb9df12/IDENTITYDISRUPTION.png?v=1706663065169"
+  img9.src = "https://cdn.glitch.global/8564ad58-5b13-41ff-b387-57c90cb9df12/ID-Thumbnail.png?v=1739995275914"
   img9.style.top = "-20px"
   t9.innerHTML = ""
 
@@ -338,7 +338,7 @@ th11.addEventListener('mouseleave', function(event){
 
   s11a.style.transform = "rotate(10deg)";
   s11b.style.transform = "rotate(5deg)";
-  img11.src = "https://cdn.glitch.global/8564ad58-5b13-41ff-b387-57c90cb9df12/4thOfJuly-2024_Newsflash_500x500.PNG?v=1739947157039"
+  img11.src = "https://cdn.glitch.global/8564ad58-5b13-41ff-b387-57c90cb9df12/4th-Thumbnail.png?v=1739995175571"
   img11.style.top = "-20px"
   t11.innerHTML = ""
 
@@ -380,7 +380,7 @@ th13.addEventListener('mouseleave', function(event){
 
   s13a.style.transform = "rotate(10deg)";
   s13b.style.transform = "rotate(5deg)";
-  img13.src = "https://cdn.glitch.global/8564ad58-5b13-41ff-b387-57c90cb9df12/LunadaYBCA_Instagram%20copy.png?v=1651779052011"
+  img13.src = "https://cdn.glitch.global/8564ad58-5b13-41ff-b387-57c90cb9df12/LUNADA-Thumbnail.png?v=1739995187593"
   img13.style.top = "-20px"
   t13.innerHTML = ""
 
