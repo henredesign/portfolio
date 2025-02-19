@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>HENRE.DESIGN</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="shortcut icon" type="image/png" href="https://cdn.glitch.com/8564ad58-5b13-41ff-b387-57c90cb9df12%2Flogogradient.png?v=1556317121559">
+
+  
+    <link rel="stylesheet" href="lightstyle.css">
+
+    
+
+    <script src="script.js" defer></script>
+  </head>  
+  <body>
+    
+      <a href="https://www.instagram.com/henredesign/" target="_blank"><img id="ig" src="https://cdn.glitch.global/8564ad58-5b13-41ff-b387-57c90cb9df12/new-Instagram-logo-white-glyph.png?v=1706662135393"></a>
+     <a href="index.html">
+     <h1>  <img id="logo" style="animation: bounce 1.5s infinite ease;" src="https://cdn.glitch.global/8564ad58-5b13-41ff-b387-57c90cb9df12/Artboard%202%20copyyyyyyy.png?v=1650072986581">
+    
+    </h1>
+    </a>
+<!--     <div id="nav-">
+      <a class="navcontent" href="/index.html" >home</a>
+      <a class="navcontent" style="color:red;" >about</a>
+      <a class="navcontent" href="/contact.html">contact</a>
+      
+    </div> -->
+      <br>
+    <div id="center">
+    
+    <div id="container">
+      
+    <div>
+      <h2>
+      SCANDINAVIAN FESTIVAL // LOGO<br>2025
+    </h2>
+    <p class="desc">
+The Scandinavian Festival is a celebration of Scandinavian culture held at California Lutheran University in Thousand Oaks, California. I worked with the event coordinators to create an offcial logo for the festival to be used for the upcoming and future events. This design takes a big inspiration from Scandinavian folk art and the style of Rosemaling art, with a color palette inspired by the vibrant Scandinavian country flags.</p>
+  
+       </div>
+      </div>
+    
+      
+      <div class="containerslides">
+        <!-- Full-width images with number text -->
+        <div class="mySlides1 fade">
+          <div class="numbertext">1 / 3</div>
+          <img
+            src="https://cdn.glitch.global/8564ad58-5b13-41ff-b387-57c90cb9df12/ScandinavianFest.gif?v=1739951461401"
+            style="width: 100%"
+          />
+        </div>
+
+        <div class="mySlides1 fade">
+          <div class="numbertext">2 / 3</div>
+          <img
+            src="https://cdn.glitch.global/8564ad58-5b13-41ff-b387-57c90cb9df12/SF-1.png?v=1739951469103"
+            style="width: 100%"
+          />
+        </div>
+
+        <div class="mySlides1 fade">
+          <div class="numbertext">3 / 3</div>
+          <img
+            src="https://cdn.glitch.global/8564ad58-5b13-41ff-b387-57c90cb9df12/SF-Process.png?v=1739951464499"
+            style="width: 100%"
+          />
+        </div>
+
+
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1,0)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1,0)">&#10095;</a>
+
+        <div class="caption-container">
+          <p id="caption1" ></p>
+        </div>
+
+        <div class="row">
+          <div class="column" >
+            <img
+              class="demo1 cursor"
+              src="https://cdn.glitch.global/8564ad58-5b13-41ff-b387-57c90cb9df12/ScandinavianFest.gif?v=1739951461401"
+              style="width: 100%"
+              onclick="currentSlide(1,0)"
+              alt="Logo (variants)"
+            />
+          </div>
+          <div class="column">
+            <img
+              class="demo1 cursor"
+              src="https://cdn.glitch.global/8564ad58-5b13-41ff-b387-57c90cb9df12/SF-1.png?v=1739951469103"
+              style="width: 100%"
+              onclick="currentSlide(2,0)"
+              alt="Logo in use on Official Website"
+            />
+          </div>
+          <div class="column">
+            <img
+              class="demo1 cursor"
+              src="https://cdn.glitch.global/8564ad58-5b13-41ff-b387-57c90cb9df12/SF-Process.png?v=1739951464499"
+              style="width: 100%"
+              onclick="currentSlide(3,0)"
+              alt="Process Sketches"
+            />
+          </div>
+         
+        </div>
+         </div>
+      
+      
+      
+    </div>
+    <script>
+   
+
+      var slideIndex = [1, 1, 1, 1];
+      var slideId = ["mySlides1", "mySlides2", "mySlides3", "mySlides4"];
+var dotId = ["demo1", "demo2", "demo3", "demo4"];
+      var capId = ["caption1", "caption2", "caption3", "caption4"];
+      showSlides(1, 0);
+      showSlides(1, 1);
+      showSlides(1, 2);
+      showSlides(1, 3);
+
+      // Next/previous controls
+      function plusSlides(n, no) {
+        showSlides((slideIndex[no] += n), no);
+      }
+
+      // Thumbnail image controls
+      function currentSlide(n, no) {
+        showSlides((slideIndex[no] = n), no);
+      }
+
+      function showSlides(n, no) {
+        var i;
+        var x = document.getElementsByClassName(slideId[no]);
+        var dots = document.getElementsByClassName(dotId[no]);
+        var captionText = document.getElementById(capId[no]);
+        if (n > x.length) {
+          slideIndex[no] = 1;
+        }
+        if (n < 1) {
+          slideIndex[no] = x.length;
+        }
+        for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+        }
+        x[slideIndex[no] - 1].style.display = "block";
+        dots[slideIndex[no] - 1].className += " active";
+        captionText.innerHTML = dots[slideIndex[no] - 1].alt;
+      }
+    </script>
+  </body>
+</html>
